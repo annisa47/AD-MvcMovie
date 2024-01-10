@@ -1,0 +1,111 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewData["Title"]</title>
+
+    <!-- Bootstrap CSS (You can replace this with your preferred CSS framework) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            background-image: url("images/barbiebackground.jpg"); /* Replace with your movie-themed background image */
+            backdrop-filter: brightness(1);
+            background-size: cover;-
+            background-position: center;
+        }
+
+        .movie-landing {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .movie-content {
+            text-align: center;
+        }
+
+            .movie-content h1 {
+                font-size: 3em;
+                margin-bottom: 20px;
+            }
+
+            .movie-content p {
+                font-size: 1.5em;
+                margin-bottom: 30px;
+            }
+
+            .movie-content a {
+                color: black;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+        .movie-catalog {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .catalog-item {
+            margin: 0 10px;
+        }
+
+            .catalog-item img {
+                max-width: 100%;
+                height: 400px;
+                margin-bottom: 200px;
+            }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="movie-landing">
+        <div class="movie-content">
+            <h1 class="display-4">What to watch next?</h1>
+            <p>Explore the legendary of Barbie Movies here.....</p>
+            <a href="/Movies" class="btn btn-warning btn-lg">Barbie Movies</a>
+            <p></p>
+            <p>Available Movie Trailer</p>
+
+            <div class="movie-catalog">
+                <div class="catalog-item">
+                    <a href="https://youtu.be/z37-RJZvofI?si=ZJPdw3tVwejRqBxm"><img src="images/charmschool.jpg" alt="Action Movies"></a>
+                </div>
+                <div class="catalog-item">
+                    <a href="https://youtu.be/s-WCpcW3IIs?si=KZHnxo4mshwtVnt4"><img src="images/mariposa.jpg" alt="Drama Movies"></a>
+                </div>
+                <div class="catalog-item">
+                    <a href="https://youtu.be/BbeAX77Se1w?si=rvIvoLwnidU0vcLX"><img src="images/12 dancing princess.jpg" alt="Romantic Comedy Movies"></a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Bootstrap JS (You can replace this with your preferred JS framework) -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+
+</body>
+
+</html>
